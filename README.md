@@ -2,6 +2,8 @@
 
 Este es un juego simple en Python donde el jugador debe adivinar un número secreto generado aleatoriamente. El jugador tiene 5 intentos para acertar y recibe pistas después de cada intento.
 
+Realizado por Eros Benitez Dos Santos.
+
 ## 🚀 Cómo jugar
 
 1. El programa genera un número aleatorio entre 0 y 100.
@@ -18,6 +20,14 @@ Este es un juego simple en Python donde el jugador debe adivinar un número secr
 - Se controla el número de intentos con una variable.
 - Se actualiza el rango después de cada intento incorrecto.
 - Se valida la entrada del usuario para que solo se acepten números enteros dentro del rango.
+
+## 🧾 Versiones del juego
+
+### ✅ Versión 1: Con manejo de errores (`try-except`)
+Esta versión usa un bloque `try-except` para capturar errores si el usuario ingresa algo que no sea un número. Es más robusta para evitar que el programa se detenga por entradas inválidas.
+
+### ✅ Versión 2: Validación sin try-except (con .isdigit())
+En esta versión se valida manualmente si la entrada contiene solo dígitos antes de convertirla a número. Es más simple visualmente y evita el uso de excepciones.
 
 ## 📦 Requisitos
 
