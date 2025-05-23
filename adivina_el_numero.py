@@ -37,3 +37,6 @@ def adivina_el_numero():
 
 # Ejecutar el juego
 adivina_el_numero()
+
+# Pausar para que la ventana no se cierre inmediatamente
+input("\nPresiona Enter para salir...")
